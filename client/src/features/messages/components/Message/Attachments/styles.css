@@ -1,0 +1,49 @@
+@import url('../../../../../assets/styles/colors.css');
+@import url('../../../../../assets/styles/styles.css');
+
+
+.grid-container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem;
+}
+
+.expanded-grid-cell{
+
+  grid-column: span 2/auto;
+}
+
+.arrow {
+  color: var(--white);
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.slider-modal {
+  position: relative;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.arrow-container {
+  margin: 1rem;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* Ensure arrows are above other content */
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}

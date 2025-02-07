@@ -1,0 +1,27 @@
+@import url('../../assets/styles/colors.css');
+
+
+.item-icon{
+  color: var(--white);
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.item-label{
+
+  color: var(--white);
+  margin-top:.2rem;
+  font-size: .9rem;
+  margin-right: 2rem;
+
+}
+.divider{
+
+  width: 100%; /* Adjust the width as needed */
+  height: 0.04rem; /* Thickness of the divider */
+  background-color: var(--gray-600); /* Color of the divider */
+  border: none; /* Remove the default border */
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+
+}

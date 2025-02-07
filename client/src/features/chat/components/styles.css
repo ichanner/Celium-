@@ -1,0 +1,107 @@
+@import url('../../../assets/styles/colors.css');
+@import url('../../../assets/styles/styles.css');
+
+
+.side-bar {
+  background-color: var(--gray-900);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 18vw;
+  height: 100vh;
+}
+
+.section-wrapper {
+  display: flex;
+  padding: 0.4rem;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.sub-section {
+  display: flex;
+  padding: 0.4rem;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.section-btn{
+  border-radius: .625rem;
+  padding: .325rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  color: var(--white);
+}
+
+.section-btn:hover{
+  cursor: pointer;
+  background-color: var(--gray-800);
+}
+
+.section-title {
+  font-size: 1rem;
+  padding: 0 0 0 .5rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.section-icon{
+  height: 1.3rem;
+  width: 1.3rem;
+  color: var(--white);
+}
+
+.section-header:hover .section-title,
+.section-header:hover .section-icon,
+.section-icon:hover{
+  cursor: pointer;
+  color: var(--gray-400);
+}
+
+.tab {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+
+}
+
+.tab-selected {
+
+  background-color: var(--gray-800);
+}
+
+.tab:hover {
+
+  cursor: pointer;
+}
+
+.tab-subject {
+
+  font-size: 1rem;
+  color: var(--gray-200);
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.menu-open-btn{
+
+  position: absolute;
+  right: 5%;
+  height: 1.4rem;
+  width: 1.4rem;
+  color: var(--gray-600);
+}
+
+  

@@ -1,0 +1,18 @@
+.modal-overlay{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  background-color: rgba(29, 49, 65, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+
+.modal-container:hover{
+
+  cursor: zoom-out;
+}

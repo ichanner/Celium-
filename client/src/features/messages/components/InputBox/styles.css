@@ -1,0 +1,123 @@
+@import url('../../../../assets/styles/colors.css');
+
+.input-container{
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem; /* Add padding for better spacing on small screens */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
+
+}
+
+.input-media-list{
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: var(--gray-900);
+  padding: 0.5rem;
+  box-sizing: border-box;
+  overflow-x:scroll;
+  width:100%;
+}
+
+.replying-container{
+
+  background-color: var(--gray-950);
+  padding: .8rem 1.2rem .8rem 1.2rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+
+}
+
+
+
+.replying-text{
+
+  color: var(--gray-400);
+  font-size: .9rem;
+  pointer-events: none;
+}
+
+.reply-icon{
+
+	color: var(--gray-400);
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.input-icon{
+
+  color: var(--gray-400);
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+
+.attachment-wrapper{
+
+  position: relative;
+}
+
+.remove-icon{
+
+  position: absolute;
+  top:-.5rem;
+  right: -.5rem;
+  height: 2rem;
+  width: 2rem;
+  color: var(--red-500);
+  z-index: 1;
+}
+
+
+img{
+
+  width: 16rem;
+  aspect-ratio:1;
+}
+
+.custom-text-field {
+
+  width:100%;
+}
+
+.custom-text-field .MuiOutlinedInput-root {
+  background-color: var(--gray-900); /* Custom background color */
+}
+
+.custom-text-field .MuiInputBase-input {
+  color: var(--white); /* Custom font color */
+}
+
+.custom-text-field .MuiInputLabel-root {
+  color: var(--gray-400); /* Custom label color */
+}
+
+.custom-text-field .MuiInputLabel-root.Mui-focused {
+  color: var(--gray-400); /* Custom label color when focused */
+}
+
+.custom-text-field .MuiOutlinedInput-notchedOutline {
+  border-color: transparent; /* Border color */
+}
+
+.custom-text-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: transparent; /* Border color on hover */
+}
+
+.custom-text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: transparent; /* Border color when focused */
+}

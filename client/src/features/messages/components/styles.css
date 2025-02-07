@@ -1,0 +1,23 @@
+@import url('../../../assets/styles/colors.css');
+
+
+.message-list-container{
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+  overflow: hidden;
+
+}
+
+.empty-list-text{
+
+  font-size: 1.5rem;
+  padding: 1rem; 
+  color: var(--white);
+  text-align: center; 
+  margin: 0 auto; 
+}
+

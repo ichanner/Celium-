@@ -1,0 +1,17 @@
+.button-icon:hover{
+
+	cursor: pointer;
+	color: var(--gray-400);
+}
+
+.button-icon-overlay{
+  
+  border-radius: 20%;
+  background-color: var(--gray-700);
+}
+
+.button-icon-overlay:hover{
+
+	cursor: pointer;
+	background-color: var(--gray-600);
+}
